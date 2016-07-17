@@ -45,37 +45,69 @@ Clone this repository and run >>python robot_problem.py
 
 You will be getting command prompt like
 **INPUT**
+
 >> Enter the grid length **5**
+
 >> Enter the grid breadth **5**
+
 >> Grid is created
+
 >> Enter how many rovers u need **2**
+
 >> Enter the x coordinates of Rover **1**
+
 >> Enter the y coordinates of Rover **2**
+
 >> Enter the facing direction of Rover **N**
+
 >> Enter the x coordinates of Rover **3** 
+
 >> Enter the y coordinates of Rover **3**
+
 >> Enter the facing direction of Rover **E**
+
 >> Enter the input_string for rover 1 to go **LMLMLMLMM**
+
 **RESPONSE**
+
 >> Rover x coordinate is 1, y_coordinate is 2,facing is west
+
 >> Rover x coordinate is 0, y_coordinate is 2,facing is west
+
 >> Rover x coordinate is 0, y_coordinate is 2,facing is south
+
 >> Rover x coordinate is 0, y_coordinate is 1,facing is south
+
 >> Rover x coordinate is 0, y_coordinate is 1,facing is east
+
 >> Rover x coordinate is 1, y_coordinate is 1,facing is east
+
 >> Rover x coordinate is 1, y_coordinate is 1,facing is north
+
 >> Rover x coordinate is 1, y_coordinate is 2,facing is north
+
 >> Rover x coordinate is 1, y_coordinate is 3,facing is north
 
 >> Enter the input_string for rover 2 to go **MMRMMRMRRM**
+
 **RESPONSE**
+
 Rover x coordinate is 4, y_coordinate is 3,facing is east
+
 Rover x coordinate is 5, y_coordinate is 3,facing is east
+
 Rover x coordinate is 5, y_coordinate is 3,facing is south
+
 Rover x coordinate is 5, y_coordinate is 2,facing is south
+
 Rover x coordinate is 5, y_coordinate is 1,facing is south
+
 Rover x coordinate is 5, y_coordinate is 1,facing is west
+
 Rover x coordinate is 4, y_coordinate is 1,facing is west
+
 Rover x coordinate is 4, y_coordinate is 1,facing is north
+
 Rover x coordinate is 4, y_coordinate is 1,facing is east
+
 Rover x coordinate is 5, y_coordinate is 1,facing is east
