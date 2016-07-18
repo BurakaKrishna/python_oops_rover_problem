@@ -19,10 +19,12 @@ class Rover():
 		left = 'S'
 		right = 'N'
 		name = 'west'
+
 	def __init__(self,x,y,compass):
 		self.x_position = int(x)
 		self.y_position = int(y) 
-		self.facing = self.get_direction(compass)
+		self.facing = self.get_direction(str(compass))
+
 	def get_direction(self,compass):
 		if compass == 'N':
 			return self.north()
@@ -77,8 +79,8 @@ def main():
 		facing = raw_input('Enter the facing direction of Rover ')
 		rover = Rover(x,y,facing)
 		Rovers_list.append(rover)
+	count = 1
 	for rover in Rovers_list:
-		count = 1
 		input_string = raw_input('Enter the input_string for rover %s to go ' % count)
 		rover.locomotion(input_string)
 		count += 1
